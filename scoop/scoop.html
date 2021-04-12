@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoop | Parzival </title>
+</head>
+<body>
+   <pre>
+       <code>
+           iwr -useb get.scoop.sh | iex
+
+           # oder die einfacher verstehbarere langform
+
+           Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
+       </code>
+   </pre> 
+   Notiz wenn Powershell einen fehler ausspuckt, probier forher den folgenden Befehl auszuführen:
+   <pre>
+       <code>
+        Set-ExecutionPolicy RemoteSigned -scope CurrentUser 
+       </code>
+   </pre>
+   Sachen die man nach dem installieren machen kann
+   <pre>
+       <code>
+        coop bucket add extras
+        scoop bucket add nonportable
+        scoop bucket add main
+        scoop bucket add games
+        
+        #ein paar tools installieren
+        scoop install python
+        # aria2 für schnellere downloads 
+        scoop install aria2
+       </code>
+   </pre>
+ 
+</body>
+</html>
