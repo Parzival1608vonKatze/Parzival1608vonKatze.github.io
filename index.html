@@ -1,38 +1,17 @@
 <html>
     <head>
 <title>#Parzival's Website</title>
+<link rel="stylesheet" href="st.css">
     </head>
    
-<body>
-    <pre>
+<body >
+    <header>
+        <br> <br>
+    <div class="clock" id="clock"></div>
+    <pre class="txtart">
          
-<br>
-<div id="clock"></div>
-<br>
-<script>
-function currentTime() {
-    var date = new Date(); /* creating object of Date class */
-    var hour = date.getHours();
-    var min = date.getMinutes();
-    var sec = date.getSeconds();
-    hour = updateTime(hour);
-    min = updateTime(min);
-    sec = updateTime(sec);
-    document.getElementById("clock").innerText = hour + " : " + min + " : " + sec; /* adding time to the div */
-      var t = setTimeout(function(){ currentTime() }, 1000); /* setting timer */
-  }
-  
-  function updateTime(k) {
-    if (k < 10) {
-      return "0" + k;
-    }
-    else {
-      return k;
-    }
-  }
-  
-  currentTime(); /* calling currentTime() function to initiate the process */
-</script>
+
+
         __________  _____ ____________________._______   _________  .____     
         \______   \/  _  \\______   \____    /|   \   \ /   /  _  \ |    |    
          |     ___/  /_\  \|       _/ /     / |   |\   Y   /  /_\  \|    |    
@@ -40,18 +19,20 @@ function currentTime() {
          |____|  \____|__  /____|_  /_______ \|___|  \___/\____|__  /_______ \
                          \/       \/        \/                    \/        \/
  </pre>
+</header>
+<div id="vanta">
+<br>
+
+ 
                         <p></p> <a href="https://twitter.com/parzival1608?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @parzival1608</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> <p></p>
  
     Heyo,
     I'm Parzival some german kiddo who has waaaay too much freetime
+
     <section class="shortcuts"></section>
     <div class="scrollabletextbox" >
        <h2>## PARZIVAL's socials</h2> <p></p>
-       <style>
-           .div h2 {
-     background-color: #dfdfdf;
-           }
-       </style>
+
         <a href="https://www.youtube.com/channel/UC_zUZ66UsUwjPM4pAfIuUHQ">[1] Youtube [GER]</a>
         <p></p>
         <a href="https://https://www.twitch.tv/parzival1608">[2] Twitch  [GER]</a>
@@ -68,92 +49,50 @@ function currentTime() {
 <a href="https://archive.org/details/The_Ultimate_Doom">[9] The Ultimate Doom</a> <br><br>
 <a href="https://www.google.com/logos/2010/pacman10-i.html">[10] PAC-MAN</a>
       </div>
-<br><br><br><br><br>
+      
+</div>
+      </body>
+      <br><br><br><br><br>
+      <script src="three.r119.min.js"></script>
+<script src="vanta.net.min.js"></script>
+<script>
+VANTA.NET({
+  el: "#vanta",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0x7fec7b,
+  backgroundColor: 0x30333a
+})
 
-                   </body>
-<!-- Style -->
-<!-- 
+</script>
 
-      _________  __            __           
-     /   _____/_/  |_  ___.__.|  |    ____  
-     \_____  \ \   __\<   |  ||  |  _/ __ \ 
-     /        \ |  |   \___  ||  |__\  ___/ 
-    /_______  / |__|   / ____||____/ \___  >
-           \/         \/                \/ 
-
--->
-<style>
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-@import url('https://fonts.googleapis.com/css?family=Anton');
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Orbitron');
-
-.div h2{
- border: #dfdfdf, 2px, solid;
- background-color: #dfdfdf;
-}
-
-
-
-
-
-.scrollabletextbox {
-    height:200px;
-    width:200%;
-    font-size: 82%;
-    overflow:auto;
-}
-
-#clock {
-  font-family: "Roboto Mono";
-  color: #7fec7b;
-  font-size: 80px;
-  text-align: center;
-  border: #ecbeb7, solid;
-}
-body {
-    padding: 20px;
-    background-color: #30333a;
-    color: #dfdfdf;
-    font-family: "Roboto Mono";
-    font-size: 18px;
-    line-height: 22px;
-    margin: 0px;
-    max-width: 960px;
-}
-
-pre {
-    color: #7fec7b;
-}
-
-blockquote {
-    color: #ecbeb7;
-}
-
-a {
-    color: #c67d8d;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #51fe51;
-}
-
-h1 {
-    font-size: 20px;
-    color: #ff6cb6;
-    margin-bottom: 0px;
-}
-
-h2, h3, h4, h5, h6 {
-    font-size: 16px;
-    color: #82fe51;
-    margin-bottom: 0px;
-}
-
-li {
-    color: #98be56;
-}
- </style>     
+<script>
+    function currentTime() {
+        var date = new Date(); /* creating object of Date class */
+        var hour = date.getHours();
+        var min = date.getMinutes();
+        var sec = date.getSeconds();
+        hour = updateTime(hour);
+        min = updateTime(min);
+        sec = updateTime(sec);
+        document.getElementById("clock").innerText = hour + " : " + min + " : " + sec; /* adding time to the div */
+          var t = setTimeout(function(){ currentTime() }, 1000); /* setting timer */
+      }
+      
+      function updateTime(k) {
+        if (k < 10) {
+          return "0" + k;
+        }
+        else {
+          return k;
+        }
+      }
+      
+      currentTime(); /* calling currentTime() function to initiate the process */
+    </script>
     </html>
