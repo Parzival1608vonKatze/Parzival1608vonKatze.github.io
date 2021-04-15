@@ -31,12 +31,23 @@ body {
 .scrollabletextbox {
     height:15%;
     background-color: #333333;
-     font-size: xxx-large;
+     font-size: large;
      overflow:auto;
      border: #3a3a3a 2px solid;
      padding: 10px;
      
 }
+.scrollabletextboxnn {
+font-size: x-large;
+height:25%;
+background-color: #333333;
+ overflow:auto;
+ border: #3a3a3a 2px solid;
+ padding: 10px;
+ font-family: Roboto Mono;
+ text-align: center;
+}
+
 .scrollabletextboxn {
     height:25%;
     background-color: #333333;
