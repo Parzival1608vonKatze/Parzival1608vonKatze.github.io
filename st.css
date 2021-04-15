@@ -5,17 +5,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Orbitron');
 
-.div h2{
- border: #dfdfdf, 2px, solid;
- background-color: #dfdfdf;
-}
+
 
 #vanta {
     padding: 10px;
     top: 0;
     left: 0;
     height: 100%;
-    width: 100%;
+   
     z-index: 1;
     font-family: 'Roboto Mono';
     font-size: large;
@@ -26,16 +23,39 @@
 }
 
 body {
-    background-color:#5f5f5f ;
+    background-color:#2f2f2f ;
     font-family: Roboto Mono;
     font-size: larger;
 }
 
 .scrollabletextbox {
-    height:200px;
-    width:200%;
-    font-size: 82%;
-    overflow:auto;
+    height:15%;
+    background-color: #333333;
+     font-size: xxx-large;
+     overflow:auto;
+     border: #3a3a3a 2px solid;
+     padding: 10px;
+     
+}
+.scrollabletextboxn {
+    height:25%;
+    background-color: #333333;
+     font-size: xxx-large;
+     overflow:auto;
+     border: #3a3a3a 2px solid;
+     padding: 10px;
+     font-family: Roboto Mono;
+     text-align: center;
+}
+.scrollabletextboxn h2 {
+    font-size: xxx-large;
+}
+
+.scrollabletextbox h2 {
+    margin: 6px;
+background-color: black;
+padding: 10px;
+
 }
 
 .txtart {
@@ -45,12 +65,12 @@ body {
     font-size: large;
 }
 header {
-  background-color: black;  
-  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.472);  
+  color: rgba(255, 255, 255, 0);
   top: 0;
   left: 0;
   height: 100%;
-  width: 100%;
+  
   z-index: 1;
 }
 
