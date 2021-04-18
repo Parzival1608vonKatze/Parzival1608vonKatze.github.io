@@ -5,13 +5,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Orbitron');
 
+#twitch-embed {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 #vanta {
     padding: 10px;
     top: 0;
     left: 0;
-    height: 100%;
+    height: 55%;
    
     z-index: 1;
     font-family: 'Roboto Mono';
@@ -126,4 +132,5 @@ h2, h3, h4, h5, h6 {
 li {
     color: #98be56;
 }
+
  
