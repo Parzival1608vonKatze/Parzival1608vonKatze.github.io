@@ -1,17 +1,17 @@
 
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-@import url('https://fonts.googleapis.com/css?family=Anton');
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Orbitron');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
-#twitch-embed {
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+
+
+
+.videoplayers {
+color: #c67d8d;
+font-weight: bolder;
+background-color: #333333;
+margin-left: 30% ;
+margin-right:30% ;
+padding: 10px
 }
-
 
 #vanta {
     padding: 10px;
@@ -30,8 +30,9 @@
 
 body {
     background-color:#2f2f2f ;
-    font-family: Roboto Mono;
+    font-family: 'Open Sans', sans-serif;
     font-size: larger;
+    font-weight: bolder;
 }
 
 .scrollabletextbox {
@@ -61,7 +62,7 @@ background-color: #333333;
      overflow:auto;
      border: #3a3a3a 2px solid;
      padding: 10px;
-     font-family: Roboto Mono;
+     font-family: 'Open Sans', sans-serif;
      text-align: center;
 }
 .scrollabletextboxn h2 {
@@ -92,7 +93,7 @@ header {
 }
 
 #clock {
-  font-family: "Roboto Mono";
+    font-family: 'Open Sans', sans-serif;
   color: #7fec7b;
   font-size: 80px;
   text-align: center;
@@ -133,4 +134,7 @@ li {
     color: #98be56;
 }
 
+html {
+    font-family: 'Open Sans', sans-serif;
+}
  
