@@ -1,15 +1,23 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
-
+#yticon {
+   width: 100%;
+   height: auto;
+}
+#twiticon {
+    width: 100%;
+    height: auto;
+}
 
 
 .videoplayers {
-color: #c67d8d;
+color: #e6c7ce;
 font-weight: bolder;
 background-color: #333333;
-margin-left: 30% ;
-margin-right:30% ;
+font-size: 30px;
+margin-left: 0% ;
+margin-right:70% ;
 padding: 10px
 }
 
@@ -30,9 +38,12 @@ padding: 10px
 
 body {
     background-color:#2f2f2f ;
+   
+    background-image: url(/pics/back.png);
     font-family: 'Open Sans', sans-serif;
     font-size: larger;
     font-weight: bolder;
+    background-position: center;
 }
 
 .scrollabletextbox {
@@ -86,6 +97,7 @@ header {
   background-color: rgba(0, 0, 0, 0.472);  
   color: rgba(255, 255, 255, 0);
   top: 0;
+  opacity: 0.8;
   left: 0;
   height: 100%;
   
