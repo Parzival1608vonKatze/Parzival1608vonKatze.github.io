@@ -62,7 +62,7 @@ background-color: #333333;
  overflow:auto;
  border: #3a3a3a 2px solid;
  padding: 10px;
- font-family: Roboto Mono;
+
  text-align: center;
 }
 
@@ -138,8 +138,9 @@ h1 {
 
 h2, h3, h4, h5, h6 {
     font-size: 16px;
-    color: #82fe51;
+    color: #2fa301;
     margin-bottom: 0px;
+    background-color: #2f2f2f;
 }
 
 li {
@@ -149,4 +150,9 @@ li {
 html {
     font-family: 'Open Sans', sans-serif;
 }
- 
+
+#console, #console-form, hr {
+    background-color: #2f2f2f;
+    margin: 10px;
+    padding: 10px;
+}
