@@ -2,133 +2,175 @@
     <head>
 <title>#Parzival's Website</title>
 <link rel="stylesheet" href="st.css">
-
-    </head>
+</head>
+    
    
 <body>
-  <div id="bg">
-    <header id="vanta">
-        <br> <br>
-    <div class="clock" id="clock"></div>
-    <pre class="txtart">
-         
-
-
-        __________  _____ ____________________._______   _________  .____     
-        \______   \/  _  \\______   \____    /|   \   \ /   /  _  \ |    |    
-         |     ___/  /_\  \|       _/ /     / |   |\   Y   /  /_\  \|    |    
-         |    |  /    |    \    |   \/     /_ |   | \     /    |    \    |___ 
-         |____|  \____|__  /____|_  /_______ \|___|  \___/\____|__  /_______ \
-                         \/       \/        \/                    \/        \/
- </pre>
-</header>
-</div> 
-<div id="space">
-</div>
-          <section class="'Video-links' on the left side'">
-<!-- 'Video-links' on the left side'-->
- <div class="videoplayers">
-
- <a href="https://twitter.com/parzival1608?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @parzival1608 </a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
- <p></p> <div class="twitch"></div> <a href="https://twitch.tv/parzival1608" >  Am I live on Twitch?
-<br>  
+  
+<div class="photo-grid">
  
-<img src="/pics/twiticon.png" id="twiticon"></a>
-
-    <a href="https://youtube.com/channel/UC_zUZ66UsUwjPM4pAfIuUHQ/live"> Youtube </a><p></p> 
-    <a href="https://youtube.com/channel/UC_zUZ66UsUwjPM4pAfIuUHQ/live">     <img src="/pics/yticon.png" id="yticon"> </a>
-</a> <br> </div>
-
-          </section>
-         
+    <div class="card" id="vanta">
         
-<br><br>
-          <section class="gimmicks">
-<div class="graybox">
-<h2> a few Gimmicks</h2>
-<!--PacMAN-->
-<iframe name=wgjf style=display:none src="" onload="google.j.l()" onerror="google.j.e()">
-</iframe>
-<p></p>
-  <p></p>
-  <!--screen-->
-  <div class="emubox" id=logo style="width:554px;height:186px;background:black url(https://rustybrick.s3.amazonaws.com/pacman10-hp.png) 0 0 no-repeat;position:relative;margin-bottom:9px" title="PAC-MAN's 30th Birthday!">
-   <div id="logo-l" style="width:200px;height:2px;left:177px;top:157px;background:#990;position:absolute;display:none;overflow:hidden">
-   <div id="logo-b" style="position:absolute;left:0;background:#ff0;height:8px;width:0">
-   </div class="emubox">
+            <br> <br>
+        <div class="clock" id="clock" class="card-wide"></div>
+    
+    </div>
   </div>
-</div>
-<!-- PACMAN coin insert-->
-<form action="/search" name=f onsubmit="google.fade=null">
-  <input type="hidden">
-  <input name=btnI type=submit value="Insert Coin" class=lsb onclick="this.checked=1">
-  </form>
-<!--JS CONSOLE-->
-  <div id=xjsd>
-  </div>
-  <div id=xjsi>
+   
   
-<!--JS CONSOLE-->
-<div>
-  <h2>JS- Console</h2>
-  <form id="console-form">
-    <input type="text" id="command">
-    <input type="submit" value="Run Command">
-    <button id="clear" type="button">Clear</button>
-  </form>
-  <hr>
-  <pre id="console"></pre>
+<br>
 </div>
+<div class="card" id="vanta">
+  <pre class="txtart">
+    __________  _____ ____________________._______   _________  .____     
+    \______   \/  _  \\______   \____    /|   \   \ /   /  _  \ |    |    
+     |     ___/  /_\  \|       _/ /     / |   |\   Y   /  /_\  \|    |    
+     |    |  /    |    \    |   \/     /_ |   | \     /    |    \    |___ 
+     |____|  \____|__  /____|_  /_______ \|___|  \___/\____|__  /_______ \
+                     \/       \/        \/                    \/        \/
+</pre>  
 </div>
-          </section>
 
-                   <script src="JS/three.r119.min.js"></script>
-                   <script src="/JS/vanta.net.min.js"></script>
-                   <script>
-                   VANTA.NET({
-                     el: "#vanta",
-                     mouseControls: true,
-                     touchControls: true,
-                     gyroControls: false,
-                     minHeight: 200.00,
-                     minWidth: 200.00,
-                     scale: 1.00,
-                     scaleMobile: 1.00,
-                     color: 0x7fec7b,
-                     backgroundColor: 0x2D2D2D,
-                   })
-                   
-                   </script>
-                   
-                   <script>
-                       function currentTime() {
-                           var date = new Date(); /* creating object of Date class */
-                           var hour = date.getHours();
-                           var min = date.getMinutes();
-                           var sec = date.getSeconds();
-                           hour = updateTime(hour);
-                           min = updateTime(min);
-                           sec = updateTime(sec);
-                           document.getElementById("clock").innerText = hour + " : " + min + " : " + sec; /* adding time to the div */
-                             var t = setTimeout(function(){ currentTime() }, 1000); /* setting timer */
-                         }
-                         
-                         function updateTime(k) {
-                           if (k < 10) {
-                             return "0" + k;
-                           }
-                           else {
-                             return k;
-                           }
-                         }
-                         
-                         currentTime(); /* calling currentTime() function to initiate the process */
-                       </script>
-                       <script src="/JS/main.js"></script>
-                
-
-    </body>
+<div class="basic-grid">
+    <div class="card">
+        <a href="https://twitch.tv/parzival1608" > Am I live on Twitch? 
+        <br>  
+         
+        <img src="/pics/twiticon.png" id="twiticon"></a></div>
+    <div class="card">
+        <a href="https://youtube.com/channel/UC_zUZ66UsUwjPM4pAfIuUHQ/live"> Youtube </a><p></p> 
+        <a href="https://youtube.com/channel/UC_zUZ66UsUwjPM4pAfIuUHQ/live">     <img src="/pics/yticon.png" id="yticon"> </a>
+    </div>
+    <div class="card">
       
-      <br><br><br><br><br>
+        <h2>Other</h2>
+        <a href="https://twitter.com/parzival1608?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @parzival1608 </a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    </div>
+    <div class="photo-grid">
+      <div class="card">
+        <h2> a few Gimmicks</h2>  </div>
+          
+            <div class="card">
+                <!--JS CONSOLE-->
+                <h2>JS- Console</h2>
+                <form id="console-form">
+                    <input type="text" id="command">
+                    <input type="submit" value="Run Command">
+                    <button id="clear" type="button">Clear</button>
+                  </form>
+                  <hr>
+                  <pre id="console"></pre>
+              </div>
+      
+            <div class="card">  
+                <!--PacMAN-->
+                
+                <iframe name=wgjf style=display:none src="" onload="google.j.l()" onerror="google.j.e()">
+                </iframe>
+                <p></p>
+                  <p></p>
+                  <h3>PACMAN</h3>
+                  <!--screen-->
+                  <div class="emubox" id=logo style="width:554px;height:186px;background:black url(https://rustybrick.s3.amazonaws.com/pacman10-hp.png) 0 0 no-repeat;position:relative;margin-bottom:9px" title="PAC-MAN's 30th Birthday!">
+                   <div id="logo-l" style="width:200px;height:2px;left:177px;top:157px;background:#990;position:absolute;display:none;overflow:hidden">
+                   <div id="logo-b" style="position:absolute;left:0;background:#ff0;height:8px;width:0">
+                   </div class="emubox">
+                  </div>
+                </div>
+                <!-- PACMAN coin insert-->
+                <form action="/search" name=f onsubmit="google.fade=null">
+                  <input type="hidden">
+                  <input name=btnI type=submit value="Insert Coin" class=lsb onclick="this.checked=1">
+                  </form>
+                
+                  <div id=xjsd>
+                  </div>
+                  <div id=xjsi>
+                </div>
+          
+                
+              
+            </section>
+        </div>
+            </div>
+    </div>
+        </body>
+                
+        
+                           <script src="JS/three.r119.min.js"></script>
+                           <script src="/JS/vanta.net.min.js"></script>
+                           <script>
+                           VANTA.NET({
+                             el: "#vanta",
+                             mouseControls: true,
+                             touchControls: true,
+                             gyroControls: false,
+                             minHeight: 200.00,
+                             minWidth: 200.00,
+                             scale: 1.00,
+                             scaleMobile: 1.00,
+                             color: 0x4CAF50,
+                             backgroundColor: 0x2D2D2D,
+                           })
+                           
+                           </script>
+                           
+                           <script>
+                               function currentTime() {
+                                   var date = new Date(); /* creating object of Date class */
+                                   var hour = date.getHours();
+                                   var min = date.getMinutes();
+                                   var sec = date.getSeconds();
+                                   hour = updateTime(hour);
+                                   min = updateTime(min);
+                                   sec = updateTime(sec);
+                                   document.getElementById("clock").innerText = hour + " : " + min + " : " + sec; /* adding time to the div */
+                                     var t = setTimeout(function(){ currentTime() }, 1000); /* setting timer */
+                                 }
+                                 
+                                 function updateTime(k) {
+                                   if (k < 10) {
+                                     return "0" + k;
+                                   }
+                                   else {
+                                     return k;
+                                   }
+                                 }
+                                 
+                                 currentTime(); /* calling currentTime() function to initiate the process */
+                               </script>
+                               <script src="/JS/main.js"></script>
+                        
+        
+</script>
+
+<script>
+    function currentTime() {
+        var date = new Date(); /* creating object of Date class */
+        var hour = date.getHours();
+        var min = date.getMinutes();
+        var sec = date.getSeconds();
+        hour = updateTime(hour);
+        min = updateTime(min);
+        sec = updateTime(sec);
+        document.getElementById("clock").innerText = hour + " : " + min + " : " + sec; /* adding time to the div */
+          var t = setTimeout(function(){ currentTime() }, 1000); /* setting timer */
+      }
+      
+      function updateTime(k) {
+        if (k < 10) {
+          return "0" + k;
+        }
+        else {
+          return k;
+        }
+      }
+      
+      currentTime(); /* calling currentTime() function to initiate the process */
+</script>
   
-    </html>
+
+
+
+</html>

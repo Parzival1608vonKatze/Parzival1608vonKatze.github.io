@@ -1,28 +1,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
-#yticon {
-   width: 100%;
-   height: auto;
-}
-#twiticon {
-    width: 100%;
-    height: auto;
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;  
 }
 
-div {
-    margin-left: -0.4%;
-}
-
-.videoplayers {
-color: #e6c7ce;
-font-weight: bolder;
-background-color: #2D2D2D;
-font-size: 30px;
-margin-left: -0.4% ;
-margin-right:70% ;
-padding: 10px
-}
 
 #vanta {
     padding: 10px;
@@ -38,11 +29,7 @@ padding: 10px
 .clock {
   border: #ecbeb7, 2px, solid ;
 }
-#space {
-    width: 100%;
-    height: 100%;
-    opacity: 0.0;
-}
+
 
 body {
     background-color:#333333 ;
@@ -55,54 +42,9 @@ body {
     background-blend-mode: lighten;
 }
 
-.scrollabletextbox {
-    height:15%;
-    background-color: #333333;
-     font-size: large;
-     overflow:auto;
-     border: #3a3a3a 2px solid;
-     padding: 10px;
-     
-}
-.scrollabletextboxnn {
-font-size: x-large;
-height:25%;
-background-color: #333333;
- overflow:auto;
- border: #3a3a3a 2px solid;
- padding: 10px;
 
- text-align: center;
-}
 
-.scrollabletextboxn {
-    height:25%;
-    background-color: #333333;
-     font-size: xxx-large;
-     overflow:auto;
-     border: #3a3a3a 2px solid;
-     padding: 10px;
-     font-family: 'Open Sans', sans-serif;
-     text-align: center;
-}
-.scrollabletextboxn h2 {
-    font-size: xxx-large;
-}
-#bg {
-    height: 100%;
-    width: 100%;
-    background-color: #2D2D2D;
-    clip-path: polygon(50% 0%, 100% 0, 30% 100%, 0 100%, 0 0);
-    position: absolute;
-    z-index: -1;
-}
 
-.scrollabletextbox h2 {
-    margin: 6px;
-background-color: #2D2D2D;
-padding: 10px;
-
-}
 
 .txtart {
     text-align: center;
@@ -120,16 +62,10 @@ header {
   
   z-index: 1;
 }
-.graybox {
-    background-color: #252525;
-    margin-left: -0.4%;
-    padding: 10px;
-
-}
 
 #clock {
     font-family: 'Open Sans', sans-serif;
-  color: #7fec7b;
+  color: #4CAF50;
   font-size: 80px;
   text-align: center;
   
@@ -137,7 +73,8 @@ header {
 
 
 pre {
-    color: #51fe51;
+    color: #4CAF50;
+   
 }
 
 blockquote {
@@ -180,3 +117,68 @@ html {
     margin: 10px;
     padding: 10px;
 }
+
+input {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #353535;
+    font-size: 3rem;
+    color: #fff;
+    box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    transition: all 500ms;
+    overflow: hidden;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+  
+.card:hover {
+    box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+    transform: translateY(-3px) scale(1.1);
+ }
+
+.basic-grid {
+    display: grid;
+    gap: 2rem;
+margin: 10px;
+padding: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+ }
+  
+ .photo-grid {
+    display: grid;
+    gap: 2rem;
+  
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-auto-rows: 240px;
+  }
+  
+  /* Medium screens */
+  @media screen and (min-width: 600px) {
+    .card-tall {
+      grid-row: span 2 / auto;
+    }
+  
+    .card-wide {
+      grid-column: span 2 / auto;
+    }
+  }
