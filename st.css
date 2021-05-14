@@ -18,7 +18,10 @@ button {
     width: 150px;
     margin: 40px;
 }
-
+#yticon {
+    width: 150px;
+    margin: 40px;
+}
 #vanta {
     padding: 10px;
     top: 0;
