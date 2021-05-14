@@ -1,7 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Ubuntu:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Ubuntu:wght@300&display=swap');           
 button {
     background-color: #4CAF50;
     border: none;
@@ -15,6 +14,10 @@ button {
     cursor: pointer;  
 }
 
+#twiticon {
+    width: 150px;
+    margin: 40px;
+}
 
 #vanta {
     padding: 10px;
@@ -29,14 +32,25 @@ button {
 
 .clock {
   border: #ecbeb7, 2px, solid ;
+  font-family:'Open Sans';
 }
 
+html {
+    display: table;
+    margin: auto;
+
+}
 
 body {
     background-color:#333333 ;
    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-image: url(/pics/back.png);
     font-size: larger;
+    width: 1000px;
+    height: auto;
+    display: table-cell;
+    vertical-align: middle;
+    padding: auto;
     font-weight: bolder;
     background-position: center;
     background-blend-mode: lighten;
@@ -69,6 +83,11 @@ pre {
 
 blockquote {
     color: #ecbeb7;
+}
+.gl {
+    margin-top: 10px;
+    width: 90%;
+   
 }
 
 a {
@@ -138,10 +157,6 @@ input {
     background-repeat: no-repeat;
  }
   
-.card:hover {
-    box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
-    transform: translateY(-3px) scale(1.1);
- }
 
 .basic-grid {
     display: grid;
