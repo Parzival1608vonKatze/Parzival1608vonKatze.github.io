@@ -100,6 +100,11 @@ class Config {
 				name: 'Bing',
 				prefix: 'https://www.bing.com/search?q=',
 				icon: 'bing'
+			},
+			'Brave': {
+				name: 'Brave',
+				prefix: 'https://search.brave.com/search?q=',
+				icon: 'brave'
 			}
 		};
 
@@ -121,12 +126,6 @@ class Config {
 				icon: 'github',
 				url: 'https://github.com/',
 				category: 'development'
-			},
-			{
-				site: 'Facebook',
-				icon: 'facebook',
-				url: 'https://facebook.com/',
-				category: 'social'
 			},
 			{
 				site: 'Gmail',
@@ -213,30 +212,6 @@ class Config {
 				category: 'media'
 			},
 			{
-				site: 'Yahoo',
-				icon: 'yahoo',
-				url: 'https://mail.yahoo.com/',
-				category: 'search engine'
-			},
-			{
-				site: 'Bing',
-				icon: 'bing',
-				url: 'https://bing.com',
-				category: 'search engine'
-			},
-			{
-				site: 'Material.io',
-				icon: 'materialio',
-				url: 'https://material.io/',
-				category: 'design'
-			},
-			{
-				site: 'Netflix',
-				icon: 'netflix',
-				url: 'https://netflix.com/',
-				category: 'media'
-			},
-			{
 				site: 'Office 365',
 				icon: 'office365',
 				url: 'https://office.com/',
@@ -279,10 +254,10 @@ class Config {
 				category: 'information'
 			},
 			{
-				site: 'Figma',
-				icon: 'figma',
-				url: 'https://figma.com/',
-				category: 'design'
+				site: 'AUR',
+				icon: 'archwiki',
+				url: 'https://aur.archlinux.org/',
+				category: 'information'
 			},
 			{
 				site: 'Stackoverflow',
@@ -306,12 +281,6 @@ class Config {
 				site: 'Calendar',
 				icon: 'calendar',
 				url: 'https://calendar.google.com/',
-				category: 'social'
-			},
-			{
-				site: 'Messenger',
-				icon: 'messenger',
-				url: 'https://messenger.com/',
 				category: 'social'
 			},
 			{
@@ -406,11 +375,6 @@ class Config {
 				url: 'https://github.com/'
 			},
 			{
-				site: 'Facebook',
-				icon: 'facebook',
-				url: 'https://facebook.com/'
-			},
-			{
 				site: 'Gmail',
 				icon: 'gmail',
 				url: 'https://mail.google.com/'
@@ -431,10 +395,11 @@ class Config {
 				url: 'https://twitter.com/'
 			},
 			{
-				site: 'Material.io',
-				icon: 'materialio',
-				url: 'https://material.io/'
-			}
+				site: 'Twitch',
+				icon: 'twitch',
+				url: 'https://twitch.tv/',
+				category: 'media'
+			},
 		];
 
 		return panelSites;
