@@ -1,0 +1,136 @@
+/*fonts*/
+@font-face {
+    font-family: 'Basement Grotesque',sans-serif;
+    src: url(/font/BasementGrotesque.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Space+Mono:wght@400;700&display=swap');
+body {
+ /*   background-image: url(/img/background.png); */
+    background-size: 100%;
+    background-color: #651f66;
+    size: 100%;
+    overflow: scroll; 
+    list-style: none;
+  /*  font-family: 'Quicksilver',sans-serif;*/
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 0.65cm;
+    color: #61bf60;
+text-decoration: none;
+justify-content: center;
+font-family: 'Space Mono', monospace;
+}
+
+img.banner {
+    height: auto;
+    width: 100%;
+}
+
+div.hitmeup {
+text-decoration: none;
+}
+
+div.hitmeup h2,h3,h4,h5,h1
+{
+    font-family: 'Basement Grotesque',sans-serif;
+    font-style: normal; 
+    font-weight: 900;
+display: flex;
+justify-content: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+a {
+background-color: #61bf60;
+color: #651f66;
+border: transparent 1px solid;
+border-radius: 15px;
+padding: 10px;
+margin-left:40% ;
+margin-right: 40%;
+width: 20%;
+text-decoration: none;
+font-family: 'Basement Grotesque',sans-serif;
+display: flex;
+justify-content: center;
+}
+
+footer {
+   /* position: absolute;*/
+    background-color: #61bf60;
+    height: 30%;
+    width: 100%;
+    top: 80%;
+    margin: 0%;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+img.shapes-body {
+    position: absolute;
+    top: +15%;
+    width: 300px;
+    margin-top: 10%;
+    margin-left: 65%;
+    margin-bottom: 5%;
+}
+
+img.shapes {
+    width: 300px;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+img.parzgrad {
+   width: 340px;
+   position: absolute;
+   right: 1%;
+}
+
+/* Phones */
+@media only screen and (max-width: 800px) {
+img.shapes {
+    width: 130px;
+}
+img.shapes-body {
+    width: 130px;
+}
+
+img.parzgrad {
+    height: 140px;
+    right: 2%;
+    position: absolute;
+ }
+
+a {
+justify-content: center;
+padding: 10px;
+margin-left:20% ;
+margin-right:20%;
+width: 40%;
+}
+
+footer {
+    position: absolute;
+    margin-top: 71%;
+    left: 0;
+    padding-bottom: 10px;
+}
+  }
+
+/* small phones */
+@media only screen and (max-width: 400px) {
+    img.parzgrad {
+        width: 100px;
+        right: 2%;
+     }
+}
