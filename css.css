@@ -1,50 +1,43 @@
-/*fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Space+Mono:wght@400;700&display=swap');
 body {
- /* background */
-    background-size: 100%;
-    background-image: url(/img/assets/z-s-nqVDLh2WLus-unsplash.jpg);
-    background-color: #651f66;
-    background-blend-mode: darken;
-    background-repeat: no-repeat;
-   background-position-y: 100%;
-    size: 100%;
-    overflow: scroll; 
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    font-size: 0.65cm;
-    color: #61bf60;
+background-size: 100%;
+background-image: url(/img/assets/z-s-nqVDLh2WLus-unsplash.jpg);
+background-color: #651f66;
+background-blend-mode: darken;
+background-repeat: no-repeat;
+background-position-y: 100%;
+size: 100%;
+overflow: scroll; 
+list-style: none;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+font-size: 0.65cm;
+color: #61bf60;
 text-decoration: none;
 justify-content: center;
 font-family:'Noto Sans', sans-serif;
 }
-
 #logo-top  {
-    margin-left: 40%;
-    margin-right: 40%;
-    height: auto;
-    width: 20%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    
+margin-left: 40%;
+margin-right: 40%;
+height: auto;
+width: 20%;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
 }
-
 div.hitmeup {
 text-decoration: none;
 }
-
 div.hitmeup h2,h3,h4,h5,h1
 {
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 500;
+font-family: 'Noto Sans', sans-serif;
+font-weight: 500;
 display: flex;
 justify-content: center;
 }
-
 a {
 background-color: #61bf60;
 color: #651f66;
@@ -59,25 +52,22 @@ font-family: 'Noto Sans', sans-serif;
 display: flex;
 justify-content: center;
 }
-
 footer {
-    margin-left: 40%;
-    margin-right: 40%;
-    height: auto;
-    width: 20%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 500;
-    font-size: 0.5cm;
+margin-left: 40%;
+margin-right: 40%;
+height: auto;
+width: 20%;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+font-family: 'Noto Sans', sans-serif;
+font-weight: 500;
+font-size: 0.5cm;
 }
-
-/* Phones */
 @media only screen and (max-width: 800px) {
-    #logo-top {
-        width: 40%;
-        margin-left: 30%;
-        margin-right: 30%;
-    }
+#logo-top {
+width: 40%;
+margin-left: 30%;
+margin-right: 30%;
+}
 }
